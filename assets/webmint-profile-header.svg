@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-labelledby="title desc">
+  <title id="title">WebMint</title>
+  <desc id="desc">Ethereum for everyday payments</desc>
+  <rect width="1280" height="320" rx="22" fill="#08251b"/>
+  <path d="M0 282C242 221 387 328 604 267S956 172 1280 234V320H0Z" fill="#0b3326"/>
+
+  <g transform="translate(74 68)">
+    <rect width="92" height="92" rx="24" fill="#2de2a6"/>
+    <g transform="translate(14 14)">
+      <path d="M46 14C50 32 40 50 18 50C16 30 28 16 46 14Z" fill="#ffffff"/>
+      <path d="M20 48C26 40 34 28 43 17" fill="none" stroke="#0a3d2c" stroke-linecap="round" stroke-width="2.5"/>
+      <path d="m30 35 6 3.5M34 28l-5-4" stroke="#0a3d2c" stroke-linecap="round" stroke-width="2"/>
+      <circle cx="37.8" cy="39.3" r="2.4" fill="#0a3d2c"/>
+      <circle cx="27.5" cy="22.8" r="2.4" fill="#0a3d2c"/>
+    </g>
+  </g>
+
+  <g font-family="Inter, Arial, sans-serif">
+    <text x="190" y="122" fill="#f6fffb" font-size="58" font-weight="750" letter-spacing="-1.5">WebMint</text>
+    <text x="192" y="167" fill="#a8c7bb" font-size="23" font-weight="500">Ethereum for everyday payments.</text>
+  </g>
+
+  <g transform="translate(192 204)" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700">
+    <rect width="178" height="38" rx="19" fill="#2de2a6"/>
+    <circle cx="22" cy="19" r="5" fill="#08251b"/>
+    <text x="38" y="25" fill="#08251b">WMINT MAINNET</text>
+    <rect x="190" width="190" height="38" rx="19" fill="none" stroke="#3f6a59"/>
+    <text x="213" y="25" fill="#c5dbd2">FIXED SUPPLY</text>
+    <rect x="392" width="212" height="38" rx="19" fill="none" stroke="#3f6a59"/>
+    <text x="415" y="25" fill="#c5dbd2">VERIFIED SOURCE</text>
+  </g>
+
+  <g transform="translate(1024 160)" fill="none" stroke="#2de2a6">
+    <circle r="42" fill="#0a3023" stroke-width="2"/>
+    <circle r="84" opacity="0.5"/>
+    <circle r="122" opacity="0.22" stroke-dasharray="4 10"/>
+    <path d="M-122 0h80M42 0h80M0-122v80M0 42v80" opacity="0.35"/>
+    <circle cx="-84" cy="0" r="5" fill="#2de2a6" stroke="none"/>
+    <circle cx="84" cy="0" r="5" fill="#2de2a6" stroke="none"/>
+    <circle cy="-84" r="5" fill="#2de2a6" stroke="none"/>
+    <circle cy="84" r="5" fill="#2de2a6" stroke="none"/>
+    <g transform="translate(-32 -32)">
+      <path d="M46 14C50 32 40 50 18 50C16 30 28 16 46 14Z" fill="#ffffff" stroke="none"/>
+      <path d="M20 48C26 40 34 28 43 17" stroke="#0a3d2c" stroke-linecap="round" stroke-width="2.5"/>
+      <circle cx="37.8" cy="39.3" r="2.4" fill="#0a3d2c" stroke="none"/>
+      <circle cx="27.5" cy="22.8" r="2.4" fill="#0a3d2c" stroke="none"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,21 @@
+name: Profile checks
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  verify-profile:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check official identifiers
+        shell: bash
+        run: |
+          grep -Fq "https://wmint.org" README.md
+          grep -Fq "0x44F725Fdf509788E123fc79881174f940B8dbdE1" README.md
+          grep -Fq "https://t.me/web_mint" README.md
+          grep -Fq "https://x.com/blockHunt4r" README.md
